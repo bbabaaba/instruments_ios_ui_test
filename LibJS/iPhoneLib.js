@@ -7,8 +7,7 @@
  *点击我的淘宝，输入用户名，密码，登录后回到主页
  */
 function Login(name,password) {
-	app.tabBar().buttons()["我的淘宝"].doTap();
-	
+	app.tabBar().buttons()["我"].doTap();
 	var text = app.navigationBar().rightButton().name();
 	
 	if(app.navigationBar().rightButton().name() == "登录") {

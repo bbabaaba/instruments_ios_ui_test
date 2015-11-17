@@ -6,7 +6,7 @@
  *用户登录，参数：用户名，密码 
  *点击我的淘宝，输入用户名，密码，登录后回到主页
  */
-function Login(name,password) {
+function Login(app,name,password) {
 	app.tabBar().buttons()["我"].doTap();
 	var text = app.navigationBar().rightButton().name();
 	
